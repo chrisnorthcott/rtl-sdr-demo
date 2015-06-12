@@ -30,7 +30,7 @@ void init_rtlsdr()
 	{
 		rtlsdr_get_device_usb_strings(i, vid, pid, ser);
 		fprintf(stdout, "#%d\t%s\t%s\t%d\n",
-			i, vid, pid, serial);
+			i, vid, pid, ser);
 	}
 }
 
